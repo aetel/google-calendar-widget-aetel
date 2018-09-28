@@ -1,0 +1,87 @@
+.a:any-link{
+	text-decoration: none;
+}
+.ko-calendar-widget-loading {
+	height: 100px;
+	text-align: center;
+}
+
+.ko-calendar-no-events{
+	text-align: center;
+}
+
+.ko-calendar-no-events.title{
+	font-size: 22px;
+	font-size: 1.375rem;
+	min-height: 3rem;
+	line-height: 3rem;
+	padding: 0 1rem;
+}
+
+.ko-calendar-no-events.body{
+	font-size: 0.9em;
+}
+
+.ko-calendar-date {
+	font-weight: bold;
+	text-align: center;
+	float: left;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	color: #fff;
+	background-color: #00A79D;
+	width: 4rem;
+	height: 4rem;
+}
+
+.ko-calendar-event-list {
+	margin: 4px;
+}
+
+.ko-calendar-entry-date-row {
+	padding-top: 6px;
+}
+
+.ko-calendar-entry-date-label {
+	font-weight: bold;
+}
+
+.ko-calendar-entry-date-text {
+}
+
+.ko-calendar-entry-location-text {
+}
+
+.ko-calendar-entry-title{
+	padding: 0.5rem;
+	padding-left: 4.5rem;
+}
+
+.ko-calendar-entry-body {
+}
+
+/* Indent the paragraphs, but not by much */
+.ko-calendar-entry-body  p {
+	margin: 0px 10px
+}
+
+.ko-calendar-day{
+	font-size: 2rem;
+}
+
+.ko-calendar-month{
+	line-height: 0.3rem;
+}
+
+.event-body{
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+	margin-top: 8px;
+}
+
+.event-body:hover{
+	box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+	cursor: pointer;
+}
+.ko-calendar-event-info{
+	padding: 1rem;
+}
